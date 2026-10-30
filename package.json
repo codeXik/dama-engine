@@ -1,0 +1,16 @@
+{
+  "name": "dama-engine",
+  "version": "1.0.0",
+  "description": "Türk daması için bağımlılıksız kural motoru ve bilgisayar oyuncusu / Dependency-free Turkish draughts (dama) rules engine and computer player",
+  "license": "MIT",
+  "author": "Skynon Labs Ltd.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src", "docs", "LICENSE", "README.md"],
+  "keywords": ["dama", "turkish-draughts", "draughts", "board-game", "game-engine", "ai"],
+  "repository": { "type": "git", "url": "git+https://github.com/codeXik/dama-engine.git" },
+  "scripts": {
+    "test": "node --test test/engine.test.mjs"
+  }
+}
